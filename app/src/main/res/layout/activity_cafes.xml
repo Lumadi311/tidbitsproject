@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".CafesActivity">
+
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadmenu">
+
+        <ImageView
+            android:id="@+id/ivSTC"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.011"
+            app:srcCompat="@drawable/strathmore_cafeterias" />
+
+        <TextView
+            android:id="@+id/item_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/ivSTC"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_toEndOf="@+id/ivSTC"
+            android:text="STC Ground Floor Cafeteria"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/item_21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_11"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@+id/ivSTC"
+            android:text="Quality and Quantity" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="loadmenu">
+
+        <ImageView
+            android:id="@+id/ivNutMuffin2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.011"
+            app:srcCompat="@drawable/strathmore_snackbar" />
+
+        <TextView
+            android:id="@+id/item_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/ivNutMuffin2"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_toEndOf="@+id/ivNutMuffin2"
+            android:text="Snack Bar"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/item_22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_12"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@+id/ivNutMuffin2"
+            android:text="Served by the best of STH" />
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

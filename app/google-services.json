@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "432170235480",
+    "firebase_url": "https://su-cafeteria2.firebaseio.com",
+    "project_id": "su-cafeteria2",
+    "storage_bucket": "su-cafeteria2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432170235480:android:4fe0663ae4939e28013c2d",
+        "android_client_info": {
+          "package_name": "com.lumadimusalia.su_cafeteria2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432170235480-lk1bin4bbn0rv0obkadeppedm4j1unor.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lumadimusalia.su_cafeteria2",
+            "certificate_hash": "1741dbf2cd90f7f5ce86f1ffdb7140d1ef863436"
+          }
+        },
+        {
+          "client_id": "432170235480-moheidi9ltr8nk5ghaa5rpspfv38f4p7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lumadimusalia.su_cafeteria2",
+            "certificate_hash": "2e709b2da051a7a237b6e43bf9b9e20f732cf2da"
+          }
+        },
+        {
+          "client_id": "432170235480-u5rorj6j8r5b4dv7qidaki3nv9abkq3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_NRouXT4OPPF9nGRzvky5CEmhegCl1pg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432170235480-u5rorj6j8r5b4dv7qidaki3nv9abkq3n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
